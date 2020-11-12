@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+  resources :users
   resources :rides
   devise_for :users
   root to: "homes#top"
